@@ -1,0 +1,32 @@
+@media screen and (max-width: 428px) {
+  .solutions-guide {
+    flex-wrap: wrap;
+  }
+  .possibilities {
+    flex-wrap: wrap;
+  }
+  .team-members {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .strategy {
+    width: calc((100% - 72px) / 4);
+  }
+  .block {
+    width: calc((100% - 48px) / 3);
+  }
+  .team {
+    width: calc((100% - 72px) / 4);
+  }
+  .block {
+    width: calc((100% - 48px) / 3);
+  }
+}
