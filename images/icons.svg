@@ -144,9 +144,9 @@
     <symbol id="icon-Vector-5-1" viewBox="0 0 32 32">
     <path d="M28.8 21.908l-4.185-0.492c-1.231-0.246-2.215 0-2.954 0.985l-3.2 3.2c-4.923-2.462-9.354-6.646-11.815-11.815l3.2-3.2c0.985-0.738 1.231-1.969 1.231-2.954l-1.231-4.431c0.246-1.969-1.477-3.2-3.2-3.2h-2.954c-2.215 0-3.692 1.723-3.692 3.692 0.985 15.262 13.046 27.323 28.308 28.308 1.969 0 3.692-1.477 3.692-3.446v-3.2c0-1.723-1.231-3.2-3.2-3.446z"></path>
     </symbol>
-    <symbol id="icon-hamburger" viewBox="0 0 47 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.891 29.091h43.2M1.891 15.564h43.2M1.891 2.036h43.2"></path>
-</symbol>
+    <symbol id="icon-menu-hamburger-2-1" viewBox="0 0 47 32">
+    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.891 29.091h43.2M1.891 15.564h43.2M1.891 2.036h43.2"></path>
+    </symbol>
     
   </defs>
 </svg>
