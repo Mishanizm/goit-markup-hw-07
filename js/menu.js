@@ -2,7 +2,7 @@
   const refs = {
     openMenuBtn: document.querySelector("[data-menu-open]"),
     closeMenuBtn: document.querySelector("[data-menu-close]"),
-    memu: document.querySelector("[data-menu]"),
+    menu: document.querySelector("[data-menu]"),
   };
 
   refs.openMenuBtn.addEventListener("click", toggleMenu);
