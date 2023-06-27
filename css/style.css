@@ -192,9 +192,8 @@ img {
 }
 
 .main-page-title {
-  max-width: 496px;
+  max-width: 320px;
   font-family: "Roboto";
-  font-style: normal;
   font-size: 36px;
   font-family: Roboto;
   font-weight: 700;
@@ -294,7 +293,7 @@ img {
 .team-members {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 72px;
 }
 
 .team-title {
@@ -585,7 +584,8 @@ img {
 }
 .modal {
   position: absolute;
-  width: 392px;
+  max-width: 392px;
+  width: 100%;
   min-height: 584px;
   left: 50%;
   top: 50%;

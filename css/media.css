@@ -95,6 +95,17 @@
     background-position: center;
     background-size: cover;
   }
+  .main-page-title {
+    max-width: 496px;
+    font-size: 56px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   /* -----------section 2---------- */
   .strategy {
@@ -108,6 +119,9 @@
   }
   .strategy {
     width: calc((100% - 24px) / 2);
+  }
+  .solutions-title {
+    display: block;
   }
 
   /* -----------section 4---------- */
@@ -126,6 +140,10 @@
   .about-link {
     width: calc((100% - 48px) / 3);
     width: 168px;
+  }
+  .team-members {
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   /* -----------footer---------- */
@@ -151,6 +169,9 @@
   .modal-box {
     margin-top: 0px;
   }
+  .footer-title {
+    text-align: left;
+  }
   .footer-form {
     display: flex;
     gap: 24px;
@@ -173,7 +194,7 @@
     padding: 72px 23px 23px 23px;
   }
 }
-
+/* ----------media 1158px--------------------- */
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -272,6 +293,11 @@
   .block {
     width: calc((100% - 48px) / 3);
   }
+  /* -----------section 5---------- */
+  .team-members {
+    gap: 24px;
+  }
+
   /* -----------footer---------- */
   .footer {
     padding: 100px 0;
@@ -284,6 +310,9 @@
   }
   .social-box {
     margin-right: 80px;
+  }
+  .footer-title {
+    text-align: left;
   }
   .footer-text {
     margin-bottom: 0px;
