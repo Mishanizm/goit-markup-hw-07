@@ -40,7 +40,11 @@ body {
 }
 
 /* -------header------ */
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .display {
   display: flex;
   height: 70px;
@@ -393,7 +397,6 @@ img {
 }
 
 .customer-link {
-  /* width: 100%; */
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -780,15 +783,20 @@ img {
 }
 
 /* -----------Portfolio---------- */
-
+.servis-portfolio {
+  border: 1px solid #f4f4fd;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .portfolio-section {
-  padding: 96px 0 120px;
+  padding: 48px 0;
 }
 .menu-portfolio {
   display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 24px;
+  margin-bottom: 48px;
 }
 .button-portfolio {
   font-family: "Roboto";
@@ -823,16 +831,9 @@ img {
 /* -----------Portfolio Services---------- */
 
 .services {
-  display: block;
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-.servis-portfolio {
-  position: relative;
-  width: calc((100% - 48px) / 3);
+  flex-direction: column;
+  gap: 48px;
 }
 
 .image-link {
